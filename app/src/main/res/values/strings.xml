@@ -7,6 +7,15 @@
         <item>China Construction Bank</item>
         <item>Agricultural Bank of China</item>
         <item>Bank of America</item>
+        <item>Apple</item>
+        <item>Ping An Insurance Group</item>
+        <item>Bank of China</item>
+        <item>Royal Dutch Shell</item>
+        <item>Wells Fargo</item>
+        <item>ExxonMobil</item>
+        <item>AT and T</item>
+        <item>Samsung Electronics</item>
+        <item>Citigroup</item>
     </string-array>
 
     <string-array name="companyCountry">
@@ -14,6 +23,15 @@
         <item>United States</item>
         <item>China</item>
         <item>China</item>
+        <item>United States</item>
+        <item>United States</item>
+        <item>China</item>
+        <item>China</item>
+        <item>Netherlands</item>
+        <item>United States</item>
+        <item>United States</item>
+        <item>United States</item>
+        <item>South Korea</item>
         <item>United States</item>
     </string-array>
 
@@ -23,6 +41,15 @@
         <item>Major Banks</item>
         <item>Regional Banks</item>
         <item>Major Banks</item>
+        <item>Computer Hardware</item>
+        <item>Diviersified Insurance</item>
+        <item>Major Banks</item>
+        <item>Oil and Gas Operations</item>
+        <item>Major Banks</item>
+        <item>Oil and Gas Operations</item>
+        <item>Telecommunication Services</item>
+        <item>Semiconductors</item>
+        <item>Major Banks</item>
     </string-array>
     
     <string-array name="companyCEO">
@@ -31,6 +58,15 @@
         <item>Wang Zuji</item>
         <item>Huan Zhou</item>
         <item>Brian T. Moynihan</item>
+        <item>Tim Cook</item>
+        <item>Ma Mingzhe</item>
+        <item>Chen Siqing</item>
+        <item>Bernardus Cornelis Margriet van Beurden</item>
+        <item>Timothy Allen Sloan</item>
+        <item>Darren W. W. Woods</item>
+        <item>Randall L. L. Stephenson</item>
+        <item>Hyun-Suk Kim</item>
+        <item>Michael L. Louis Corbat</item>
     </string-array>
 
     <string-array name="companyDesc">
@@ -39,5 +75,14 @@
         <item>China Construction Bank Corp. engages in the provision of financial and banking services.</item>
         <item>Agricultural Bank of China engages in the provision of international commercial banking and financial services.</item>
         <item>Bank of America Corp. is a bank and financial holding company, which engages in the provision of banking and nonbank financial services.</item>
+        <item>Apple, Inc. engages in the design, manufacture, and marketing of mobile communication, media devices, personal computers, and portable digital music players.</item>
+        <item>Ping An Insurance (Group) Co. of China Ltd. engages in the provision of financial products and services. </item>
+        <item>Bank of China Ltd. engages in the provision of banking and related financial services such as commercial and investment banking, and insurance and investment services.</item>
+        <item>Royal Dutch Shell Plc engages in the oil and natural gas production.</item>
+        <item>Wells Fargo and Co. is a bank holding company that engages in the provision of banking, insurance, investments, mortgage, and consumer and commercial finance.</item>
+        <item>Exxon Mobil Corp. engages in the exploration, development, and distribution of oil, gas, and petroleum products.</item>
+        <item>AT and T, Inc. is a holding company, which engages in the provision of telecommunications and digital entertainment services.</item>
+        <item>Samsung Electronics Co., Ltd. engages in the manufacturing and selling of electronics and computer peripherals.</item>
+        <item>Citigroup, Inc. is a global financial services holding company specializes in banking and financial solutions.</item>
     </string-array>
 </resources>
