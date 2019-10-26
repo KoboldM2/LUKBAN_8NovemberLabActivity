@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
     String[] comName, comCountry, comIndustry, comCEO, comDesc;
-    final int[] logo = {R.drawable.icbc, R.drawable.jpmc, R.drawable.ccb, R.drawable.abc, R.drawable.boa};
+    final int[] logo = {R.drawable.icbc, R.drawable.jpmc, R.drawable.ccb, R.drawable.abc, R.drawable.boa, R.drawable.apple, R.drawable.pingan, R.drawable.bankofchina, R.drawable.shell, R.drawable.wellsfargo, R.drawable.exxonmobil, R.drawable.att, R.drawable.samsung, R.drawable.citigroup};
     ArrayList<AndroidCompanies> companies = new ArrayList<>();
     ListView listCompanies;
 
