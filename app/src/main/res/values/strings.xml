@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Top Global Companies</string>
+    
+    <string-array name="companyName">
+        <item>ICBC</item>
+        <item>JP Morgan Chase</item>
+        <item>China Construction Bank</item>
+        <item>Agricultural Bank of China</item>
+        <item>Bank of America</item>
+    </string-array>
+
+    <string-array name="companyCountry">
+        <item>China</item>
+        <item>United States</item>
+        <item>China</item>
+        <item>China</item>
+        <item>United States</item>
+    </string-array>
+
+    <string-array name="companyIndustry">
+        <item>Major Banks</item>
+        <item>Major Banks</item>
+        <item>Major Banks</item>
+        <item>Regional Banks</item>
+        <item>Major Banks</item>
+    </string-array>
+    
+    <string-array name="companyCEO">
+        <item>Shu Gu</item>
+        <item>Jamie Dimon</item>
+        <item>Wang Zuji</item>
+        <item>Huan Zhou</item>
+        <item>Brian T. Moynihan</item>
+    </string-array>
+
+    <string-array name="companyDesc">
+        <item>Industrial and Commercial Bank of China Ltd. engages in the provision of commercial banking and financial services.</item>
+        <item>JPMorgan Chase and Co. is a financial holding company, which provides financial and investment banking services.</item>
+        <item>China Construction Bank Corp. engages in the provision of financial and banking services.</item>
+        <item>Agricultural Bank of China engages in the provision of international commercial banking and financial services.</item>
+        <item>Bank of America Corp. is a bank and financial holding company, which engages in the provision of banking and nonbank financial services.</item>
+    </string-array>
+</resources>
