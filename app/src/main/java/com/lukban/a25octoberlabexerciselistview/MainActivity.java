@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         listCompanies = findViewById(R.id.lvAndroid);
         listCompanies.setAdapter(adapter);
         listCompanies.setOnItemClickListener(this);
-
     }
 
     @Override
@@ -48,12 +47,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         dialog.setMessage(comDesc[i]);
         dialog.setNeutralButton("Close", new DialogInterface.OnClickListener() {
             @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
+            public void onClick(DialogInterface dialog, int which) {
                 dialog.dismiss();
                 Toast.makeText(MainActivity.this, comName[i],Toast.LENGTH_LONG).show();
             }
         });
-
         dialog.create().show();
     }
 }

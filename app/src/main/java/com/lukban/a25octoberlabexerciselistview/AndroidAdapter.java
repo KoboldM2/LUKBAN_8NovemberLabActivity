@@ -15,7 +15,7 @@ import com.lukban.a25octoberlabexerciselistview.AndroidCompanies;
 
 import java.util.List;
 
-public class AndroidAdapter extends ArrayAdapter{
+public class AndroidAdapter extends ArrayAdapter<AndroidCompanies>{
     private Context context;
     private int resource;
 
@@ -29,11 +29,11 @@ public class AndroidAdapter extends ArrayAdapter{
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         int logo = getItem(position).getLogo();
-        String compName = getItem(position).getCompName();
-        String compCountry = getItem(position).getCompCountry();
-        String compIndustry = getItem(position).getCompIndustry();
-        String compCEO = getItem(position).getCompCEO();
-        String compDesc = getItem(position).getCompDesc();
+        String XcompName = getItem(position).getCompName();
+        String XcompCountry = "Country: " + getItem(position).getCompCountry();
+        String XcompIndustry = "Industry: " + getItem(position).getCompIndustry();
+        String XcompCEO = "CEO: " + getItem(position).getCompCEO();
+        String XcompDesc = getItem(position).getCompDesc();
 
 
         LayoutInflater inflater = LayoutInflater.from(context);
@@ -46,10 +46,10 @@ public class AndroidAdapter extends ArrayAdapter{
         TextView companyCEO = convertView.findViewById(R.id.compCEO);
 
         img.setImageResource(logo);
-        companyName.setText(compName);
-        companyCountry.setText(compCountry);
-        companyIndustry.setText(compIndustry);
-        companyCEO.setText(compCEO);
+        companyName.setText(XcompName);
+        companyCountry.setText(XcompCountry);
+        companyIndustry.setText(XcompIndustry);
+        companyCEO.setText(XcompCEO);
 
         return convertView;
     }
